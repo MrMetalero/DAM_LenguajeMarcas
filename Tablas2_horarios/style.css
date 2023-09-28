@@ -1,0 +1,89 @@
+
+
+table{
+
+    background-color: rgba(194, 240, 223, 0.185);
+
+    text-align: center;
+
+}
+
+
+
+td.horas{
+
+width: 50px;
+background-color: antiquewhite;
+
+
+
+}
+
+
+
+
+.recreo{
+
+color: rgb(27, 26, 26);
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.sistemas{
+
+    background-color: rgba(165, 42, 42, 0.322);
+
+
+}
+
+
+.lenguajes{
+
+    background-color: rgba(56, 165, 42, 0.322);
+
+}
+
+.programacion{
+
+
+    background-color: rgba(42, 65, 165, 0.322);
+
+}
+
+.entornos{
+
+    background-color: rgba(42, 161, 165, 0.322);
+
+
+}
+
+.ingles{
+
+    background-color: rgba(221, 208, 21, 0.322);
+
+}
+
+
+.fol{
+
+    background-color: rgba(221, 111, 21, 0.322);
+
+
+}
+
+.bases{
+
+    background-color: rgba(221, 21, 221, 0.322);
+
+}
+
+.tutoria{
+
+
+    background-color: rgba(0, 255, 191, 0.322);
+    
+
+}
+
