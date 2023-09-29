@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+
+        function retornarNombre(){
+            alert(document.getElementById('nombre').value + "" + document);
+            return false;
+
+
+        }
+
+
+
+    </script>
+
+
+
 </head>
 <body>
     <h1>Formulario</h1>
 
 
-    <form action="">
+    <form onsubmit="return retornarNombre()">
+
+
+       
+
         <h3>Texto</h3>
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre1">
+        <input type="text" name="nombre" id="nombre">
 
-        <script>
-
-            var elemento = document.getElementById("nombre1").elements;
-            alert("El nombre introducido es"+ elemento)
-        
-
-
-
-        </script>
+      
 
 
 
