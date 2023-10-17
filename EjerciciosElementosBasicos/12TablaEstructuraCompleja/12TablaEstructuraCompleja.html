@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla completa</title>
+</head>
+
+<style>
+  .fuerteLetras{
+    font-weight: bold;
+
+  }
+
+  body{
+    
+
+
+  }
+
+  table{
+    max-width: 450px;
+    text-align: center;
+
+  }
+
+</style>
+
+<body>
+
+  <h2>Comparativa de reproductores MP3</h2>
+  
+
+    <table border="1">
+        <thead>
+          <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+          <tr id="Fila1">
+            <td></td>
+            
+            <td colspan="3" style="font-weight: bold;">
+              <img src="./imagenes/mp3_pequeno_blanco.png" alt="peqBlanco">
+              <img src="./imagenes/mp3_pequeno_negro.png" alt="peqNegro">
+              <br/>
+              MP3 mini
+            </td>
+
+            <td colspan="2" style="font-weight: bold;">
+              <img src="./imagenes/mp3_grande_blanco.png" alt="granBlanco">
+              <img src="./imagenes/mp3_grande_negro.png" alt="granNegro">
+              <details>(Un Mp3 más grande que la otra versión, esto es solo para probar summary hehe)<summary>MP3 grande</summary></details>
+            </td>
+
+          </tr>
+        </thead>
+        <tbody>
+
+
+          <tr id="Fila2">
+            <td class="fuerteLetras">Capacidad de almacenamiento</td>
+            <td>4GB (1.000 canciones)</td>
+            <td>8GB (2.000 canciones)</td>
+            <td>16GB (4.000 canciones)</td>
+            <td>30GB (7.500 canciones)</td>
+            <td>80GB (20.000 canciones)</td>
+          </tr>
+
+          <tr id="Fila3">
+            <td class="fuerteLetras">Colores</td>
+            <td><img src="./imagenes/color_blanco.png" alt="blanco"></td>
+
+            <td>
+              <img src="./imagenes/color_negro.png" alt="negro"> 
+              <img src="./imagenes/color_verde.png" alt="verde">
+              <img src="./imagenes/color_azul.png" alt="azul">
+              <img src="./imagenes/color_rosa.png" alt="rosa">
+            </td>
+
+            <td><img src="./imagenes/color_negro.png" alt="negro"></td>
+
+            <td colspan="2">
+                <img src="./imagenes/color_blanco.png" alt="blanco">
+                <img src="./imagenes/color_negro.png" alt="negro">
+            </td>
+          </tr>
+
+          <tr id="Fila4">
+            <td class="fuerteLetras">Pantalla</td>
+            <td colspan="3"><abbr title="Liquid Crystal Display">LCD</abbr> de 3cm (diagonal) con retroiluminación</td>
+            <td colspan="2"><abbr title="Liquid Crystal Display">LCD</abbr> de 6cm (diagonal) con retroiluminación</td>
+          </tr>
+
+          <tr id="Fila5">
+            <td rowspan="2" class="fuerteLetras">Tiempo de carga</td>
+            <td colspan="3" rowspan="2">Unas 3 horas</td>
+            <td colspan="2">Unas 4 horas</td>
+          </tr>
+
+          <tr id="Fila6">
+            <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+          </tr>
+
+
+
+        </tbody>
+        </table>
+
+    
+</body>
+</html>
