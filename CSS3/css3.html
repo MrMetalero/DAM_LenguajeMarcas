@@ -4,20 +4,35 @@
   <meta charset="utf-8" />
   <title>Ejercicio posicionamiento</title>
   <style type="text/css">
-    div{
+
+    body{
+      margin-left: 5px;
+      margin-right: 5px;  
       
+      
+    }
+
+
+    #divFondo{
+      height: 40px;
       background-color: rgb(206, 206, 206);
-      min-height: 50px;
+      text-align:  center;
+     
       
     }
-    div[nbsp]{
-      content: '&nbsp;';
+
+    #div1{
+      background-color: rgb(206, 206, 206);
+      float: left;
       
-      background-color: aqua;
-      
-      
+
     }
-   
+    
+    #div2{
+      background-color: rgb(206, 206, 206);
+      float: right;
+     
+    }
     
     
    
@@ -28,8 +43,21 @@
 </head>
  
 <body>
-  <div>
-    &laquo; Anterior &nbsp; Siguiente &raquo;
+
+  <div id="divFondo">
+
+    <div id="div1">
+      <a href="">&laquo; Anterior &nbsp;</a>  
+    </div>
+  
+    <div id="div2">
+      <a href="">Siguiente &raquo;</a> 
+    </div>
+
+
   </div>
+  
+  
+
 </body>
 </html>
