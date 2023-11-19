@@ -1,0 +1,41 @@
+
+body{
+    margin-left: 5px;
+    margin-right: 5px;  
+    
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  #divFondo{
+    height: 40px;
+    background-color: rgb(206, 206, 206);
+    border: 1px grey solid;
+    margin-top: 10px;
+    
+  }
+
+  #div1{
+    background-color: rgb(206, 206, 206);
+    float: left;
+    margin-left: 5px;
+    padding-top: 10px;
+
+  }
+  
+  #div2{
+    background-color: rgb(206, 206, 206);
+    float: right;
+    margin-right: 5px;
+    padding-top: 10px;
+  }
+  
+  
+ 
+
+

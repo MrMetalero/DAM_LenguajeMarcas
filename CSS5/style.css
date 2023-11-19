@@ -10,42 +10,71 @@ body {
 .desplegable {
     display: inline-block;
     position:relative;
-  
+    background-color: lightgrey;
+    padding-left: 5px;
+    text-align: center;
+    
 }
 
 .separador{
     display: inline-block;
     position: relative;
-    top: 3px;
+    top: 2px;
    
     align-self: center;
     width: 1px;
-    height: 16px;
-    padding-top: 1px;
+    height: 25px;
+    padding: 0px;
+    margin: -4px;
     
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid rgb(48, 142, 173);
+    background-color: rgb(48, 142, 173);
+    
+    
 
 }
 
 .contenidoDesplegable {
     display:none;
     position: absolute;
+    text-align: center;
    
 }
 
 
 .desplegable:hover .contenidoDesplegable{
     display: block;
+    background-color: lightgrey;
+    text-transform:uppercase;
+    font-size: large;
+    width: 150px;
+    
+
+}
+.desplegable:hover .contenidoDesplegable a{
+    text-decoration: none;
+    color: rgb(48, 142, 173);
+
+
+}
+
+.desplegable:hover .contenidoDesplegable hr{
+    
+    border: 1px solid rgb(48, 142, 173);
+    width: 120px;
 
 
 }
 
 
+
 button{
-background-color: lightblue;
-border:  0px transparent;
-padding: 0px;
+    background-color: lightgrey;
+    border:  0px transparent;
+    padding: 0px;
+    color: rgb(48, 142, 173);
+    text-transform:uppercase;
+    font-size: x-large;
 
 }
 
