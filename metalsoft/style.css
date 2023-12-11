@@ -2,5 +2,43 @@
 
 
 
+/* Menú superior*/
+nav{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul li ,li a{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+
+nav ul li ,li a{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+
+nav ul li{
+    background-color: black;
+
+
+}
+
+
+.menuItem{
+    text-decoration: none;
+
+
+}
 
 
