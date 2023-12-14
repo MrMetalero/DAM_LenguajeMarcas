@@ -1,0 +1,125 @@
+
+
+/* ---- Estilos b�sicos ---------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F5FE url("../imagenes/fondo.gif") 0 0 repeat-x;
+    font: 70%/160% "verdana", sans-serif;
+    color: #192666;
+  }
+  
+  a {
+    color:#192666;
+  }
+  a:hover {
+    color:#4F6AD7;
+  }
+  
+  
+  p {
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    margin: 1em 0;
+    padding:0;
+  }
+  
+  h1 {
+    font-size: 80px;
+    font-family: "georgia", serif;
+    font-weight: normal;
+  }
+  
+  h2 {
+    font-size:40px;
+    font-family: "georgia", serif;
+    font-weight:normal;
+  }
+  
+  h3 {
+    font-size:120%;
+    font-weight:bold;
+  }
+  
+  ul, ol {
+    margin: 1em 0 1em 2em;
+    padding:0;
+  }
+
+
+/* ---- Layout ------------------------------------------------------------- */
+
+#contenedor {
+    width:770px;
+    margin: 50px auto 0 auto;
+  }
+  
+  #cabecera {
+    width: 770px;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
+    color: #FFF;
+  }
+  
+  #contenido {
+    width: 760px;
+    margin: 0 5px;
+    background: #FFF;
+  }
+  
+  #contenido #principal {
+    float: left;
+    width: 530px;
+    margin-top: 15px;
+    padding:0 0 0 20px;
+    background: #FFF;
+  }
+  
+  #contenido #secundario {
+    float: left;
+    width: 200px;
+    margin: 15px 0 0 0;
+    padding: 0;
+    background: #CEDBF9 url("../imagenes/fondo_columna.gif") no-repeat;
+  }
+  
+  #pie {
+    clear: both;
+    height: 60px;
+    margin-bottom: 50px;
+    background: url("../imagenes/fondo_pie.jpg") no-repeat;
+    color: #6685CC;
+    position: relative;
+  }
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (min-width: 768px){
+
+    h1 {
+        font-size: 40px;
+        font-family: "georgia", serif;
+        font-weight: normal;
+    }
+
+
+  
+}
