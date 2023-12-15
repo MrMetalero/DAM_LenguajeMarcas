@@ -6,12 +6,13 @@ body {
     margin: 0;
     padding: 0;
     background: #F2F5FE url("../imagenes/fondo.gif") 0 0 repeat-x;
-    font: 70%/160% "verdana", sans-serif;
     color: #192666;
   }
   
   a {
     color:#192666;
+    padding-bottom: 15px;
+  
   }
   a:hover {
     color:#4F6AD7;
@@ -21,6 +22,7 @@ body {
   p {
     margin: 1em 0;
     padding: 0;
+    font: 70%/160% "verdana", sans-serif;
   }
   
   .clear {
@@ -28,8 +30,9 @@ body {
   }
   
   h1, h2, h3, h4, h5 {
-    margin: 1em 0;
+    margin:0;
     padding:0;
+    
   }
   
   h1 {
@@ -39,10 +42,21 @@ body {
   }
   
   h2 {
-    font-size:40px;
+    font-size:50px;
+    height: 80px;
+
     font-family: "georgia", serif;
     font-weight:normal;
+    margin-bottom: 30px;
   }
+
+  h2 a{
+    background-color: red;
+    height: px;
+
+  }
+
+
   
   h3 {
     font-size:120%;
@@ -67,9 +81,11 @@ body {
     position: relative;
     height: 100px;
     margin: 0;
-    padding: 0;
+    padding-bottom: 150px;
     background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
     color: #FFF;
+  
+    
   }
   
   #contenido {
@@ -80,19 +96,30 @@ body {
   
   #contenido #principal {
     float: left;
-    width: 530px;
+    width: 400px;
     margin-top: 15px;
-    padding:0 0 0 20px;
+    padding:30px 0 0 5px;
     background: #FFF;
   }
   
   #contenido #secundario {
+  
     float: left;
     width: 200px;
     margin: 15px 0 0 0;
     padding: 0;
     background: #CEDBF9 url("../imagenes/fondo_columna.gif") no-repeat;
   }
+
+  #secundario{
+    display:block;
+    z-index: 5;
+    position: absolute;
+    left: 470px;
+  }
+
+
+
   
   #pie {
     clear: both;
@@ -107,19 +134,63 @@ body {
 
 
 
+  
+/* ---- Men� --------------------------------------------------------------- */
+#menu {
+  background: #192666;
+  margin-right: 300px;
+  padding: 10px 20px 0 ;
+  width: 100%;
+}
+
+#menu ul {
+  margin: 0 50px;
+  padding: 0;
+  width: 450px;
+  list-style:none;
+}
+
+#menu ul li {
+  margin: 0 5px 0 0;
+  padding: 0;
+  float:left;
+}
+
+#menu ul li a {
+  display: block;
+  position: relative;
+  padding: 5px 15px;
+  border: 0;
+  background: #253575;
+  color: #B5C4E3;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu ul li a:hover {
+  background: #31479B;
+}
+
+#menu ul li.seleccionado a {
+  background: #FFF;
+  color: #FF9000;
+}
 
 
 
 
 
-    @media only screen and (min-width: 768px){
+
+
+  @media only screen and (min-width: 768px){
 
     h1 {
-        font-size: 40px;
-        font-family: "georgia", serif;
-        font-weight: normal;
+      font-size: 40px;
+      font-family: "georgia", serif;
+      font-weight: normal;
     }
 
 
   
-}
+  }
