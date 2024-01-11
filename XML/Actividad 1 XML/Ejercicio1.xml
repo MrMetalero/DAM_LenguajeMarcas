@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<continentes>
+
+    <continente nombre="Asia">
+       
+        <paises>
+
+            <pais>
+                <nombrePais>India</nombrePais>
+
+                <ciudades>
+                    <ciudad>Nueva Delhi</ciudad>
+                </ciudades>
+
+            </pais>
+
+
+
+        </paises>
+
+
+    </continente>
+
+
+
+    <continente nombre="Europa">
+        
+
+
+        <paises>
+
+            <pais>
+                <nombrePais>Portugal</nombrePais>
+                
+                <ciudades>
+                    <ciudad>Lisboa</ciudad>
+                </ciudades>
+
+            </pais>
+
+
+
+        </paises>
+
+
+    </continente>
+
+
+
+
+
+    <continente nombre="África">
+        
+
+
+        <paises>
+
+            <pais>
+                <nombrePais>Egipto</nombrePais>
+                
+                <ciudades>
+                    <ciudad>El Cairo</ciudad>
+                </ciudades>
+
+            </pais>
+
+
+
+        </paises>
+
+
+    </continente>
+
+
+</continentes>
