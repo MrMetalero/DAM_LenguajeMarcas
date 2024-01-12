@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mensajes>
+
+    <mensaje>
+        <remite>
+            <nombre>Alfredo Reino</nombre>
+            <email>alg@adada.com</email>
+
+
+
+
+        </remite>
+
+        <destinatario>
+            <nombre>Bill Clinton</nombre>
+            <email>president@whitehouse.gov</email>
+
+
+
+        </destinatario>
+
+
+        <asunto>Hola Bill</asunto>
+        <texto>
+            <parrafo>¿Hola qué tal?</parrafo>
+            <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos</parrafo>
+            <parrafo>Un saludo</parrafo>
+
+        </texto>
+
+
+
+
+    </mensaje>
+
+
+
+
+
+
+
+
+
+
+
+</mensajes>
