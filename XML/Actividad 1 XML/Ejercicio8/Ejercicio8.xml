@@ -5,46 +5,37 @@
     <arbol>
         <nombreLatin>Acer monospessaulanum</nombreLatin>
         <vegetacion>Caducifolio</vegetacion>
-        <altura>De 6 a 10 metros</altura>
-        <formaEstructura>Copa esférica.Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
-        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
-        <resistenciaHeladas>Heladasfuertes (hasta -15ºC)</resistenciaHeladas>
+        <altura>
+            <min>6</min>
+            <max>10</max>
+        </altura>
+        <formaEstructura>
+            <copa>Esférica</copa>
+            <tronco>Recto, con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
 
-    </arbol>
-
-
-    <arbol>
-        <nombreLatin>Acer monospessaulanum</nombreLatin>
-        <vegetacion>Caducifolio</vegetacion>
-        <altura>De 6 a 10 metros</altura>
-        <formaEstructura>Copa esférica.Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
-        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
-        <resistenciaHeladas>Heladasfuertes (hasta -15ºC)</resistenciaHeladas>
-
-    </arbol>
-
-
-
-    <arbol>
-        <nombreLatin>Acer monospessaulanum</nombreLatin>
-        <vegetacion>Caducifolio</vegetacion>
-        <altura>De 6 a 10 metros</altura>
-        <formaEstructura>Copa esférica.Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
-        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
-        <resistenciaHeladas>Heladasfuertes (hasta -15ºC)</resistenciaHeladas>
-
-    </arbol>
-
-
-
-
-    <arbol>
-        <nombreLatin>Acer monospessaulanum</nombreLatin>
-        <vegetacion>Caducifolio</vegetacion>
-        <altura>De 6 a 10 metros</altura>
-        <formaEstructura>Copa esférica.Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
-        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
-        <resistenciaHeladas>Heladasfuertes (hasta -15ºC)</resistenciaHeladas>
+        </formaEstructura>
+        <colorEstacional>
+            <Primavera>
+                <haz>verde brillante </haz>
+                <enves>verde blanquecino</enves>
+            </Primavera>
+            <autumn>
+                <haz></haz>
+                <enves></enves>
+            </autumn>
+            <verano>
+                <haz></haz>
+                <enves></enves>
+            </verano>
+            <invierno>
+                <haz></haz>
+                <enves></enves>
+            </invierno>
+        </colorEstacional>
+        <resistenciaHeladas tipoHelada="Helada fuerte">
+            (hasta -15ºC)
+        </resistenciaHeladas>
 
     </arbol>
 
@@ -55,17 +46,164 @@
     <arbol>
         <nombreLatin>Acer monospessaulanum</nombreLatin>
         <vegetacion>Caducifolio</vegetacion>
-        <altura>De 6 a 10 metros</altura>
-        <formaEstructura>Copa esférica.Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
-        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
-        <resistenciaHeladas>Heladasfuertes (hasta -15ºC)</resistenciaHeladas>
+        <altura>
+            <min>6</min>
+            <max>10</max>
+        </altura>
+        <formaEstructura>
+            <copa>Esférica</copa>
+            <tronco>Recto, con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
+
+        </formaEstructura>
+        <colorEstacional>
+            <Primavera>
+                <haz>verde brillante </haz>
+                <enves>verde blanquecino</enves>
+            </Primavera>
+            <autumn>
+                <haz></haz>
+                <enves></enves>
+            </autumn>
+            <verano>
+                <haz></haz>
+                <enves></enves>
+            </verano>
+            <invierno>
+                <haz></haz>
+                <enves></enves>
+            </invierno>
+        </colorEstacional>
+        <resistenciaHeladas tipoHelada="Helada fuerte">
+            (hasta -15ºC)
+        </resistenciaHeladas>
+
+    </arbol>
+
+
+
+    <arbol>
+        <nombreLatin>Acer monospessaulanum</nombreLatin>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>
+            <min>6</min>
+            <max>10</max>
+        </altura>
+        <formaEstructura>
+            <copa>Esférica</copa>
+            <tronco>Recto, con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
+
+        </formaEstructura>
+        <colorEstacional>
+            <Primavera>
+                <haz>verde brillante </haz>
+                <enves>verde blanquecino</enves>
+            </Primavera>
+            <autumn>
+                <haz></haz>
+                <enves></enves>
+            </autumn>
+            <verano>
+                <haz></haz>
+                <enves></enves>
+            </verano>
+            <invierno>
+                <haz></haz>
+                <enves></enves>
+            </invierno>
+        </colorEstacional>
+        <resistenciaHeladas tipoHelada="Helada fuerte">
+            (hasta -15ºC)
+        </resistenciaHeladas>
 
     </arbol>
 
 
 
 
-    
+    <arbol>
+        <nombreLatin>Acer monospessaulanum</nombreLatin>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>
+            <min>6</min>
+            <max>10</max>
+        </altura>
+        <formaEstructura>
+            <copa>Esférica</copa>
+            <tronco>Recto, con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
+
+        </formaEstructura>
+        <colorEstacional>
+            <Primavera>
+                <haz>verde brillante </haz>
+                <enves>verde blanquecino</enves>
+            </Primavera>
+            <autumn>
+                <haz></haz>
+                <enves></enves>
+            </autumn>
+            <verano>
+                <haz></haz>
+                <enves></enves>
+            </verano>
+            <invierno>
+                <haz></haz>
+                <enves></enves>
+            </invierno>
+        </colorEstacional>
+        <resistenciaHeladas tipoHelada="Helada fuerte">
+            (hasta -15ºC)
+        </resistenciaHeladas>
+
+    </arbol>
+
+
+
+
+
+    <arbol>
+        <nombreLatin>Acer monospessaulanum</nombreLatin>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>
+            <min>6</min>
+            <max>10</max>
+        </altura>
+        <formaEstructura>
+            <copa>Esférica</copa>
+            <tronco>Recto, con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
+
+        </formaEstructura>
+        <colorEstacional>
+            <Primavera>
+                <haz>verde brillante </haz>
+                <enves>verde blanquecino</enves>
+            </Primavera>
+            <autumn>
+                <haz></haz>
+                <enves></enves>
+            </autumn>
+            <verano>
+                <haz></haz>
+                <enves></enves>
+            </verano>
+            <invierno>
+                <haz></haz>
+                <enves></enves>
+            </invierno>
+        </colorEstacional>
+        <resistenciaHeladas tipoHelada="Helada fuerte">
+            (hasta -15ºC)
+        </resistenciaHeladas>
+
+    </arbol>
+
+
+
+
+
 
 
 
