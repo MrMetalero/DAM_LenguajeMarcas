@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE listacompras SYSTEM "file.dtd">
 <listacompras>
-
+    <venta>
+        <ventaacredito>
+            <fechafinpago></fechafinpago>
+            <cantidad></cantidad>
+        </ventaacredito>
+    </venta>
 
 
 
