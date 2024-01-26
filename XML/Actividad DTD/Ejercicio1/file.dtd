@@ -7,6 +7,5 @@
 
 <!ELEMENT ventainmediata (cantidad,divisa)>
 
-
-
-
+<!ELEMENT fechafinpago (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
