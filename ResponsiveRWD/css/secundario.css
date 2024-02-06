@@ -368,10 +368,6 @@ body {
   margin: 4px 5px 0 0;
 }
 
-#contenido #secundario #sobremi p {
-
-}
-
 #contenido #secundario div {
   padding: 0 10px;
 }
@@ -411,7 +407,7 @@ body {
 
 
 
-  @media only screen and (min-width: 768px){
+  @media all and (min-width: 768px){
     
     #contenido #secundario {
       font-size: 21px;
@@ -435,5 +431,6 @@ body {
       padding: 0;
       background: #CEDBF9 url("../imagenes/fondo_columna.gif") no-repeat;
     }
+
 
   }
