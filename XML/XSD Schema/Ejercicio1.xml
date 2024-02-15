@@ -40,7 +40,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <xs:element name="puertaAbierta">
+                <xs:element name="puertaAbierta" default="true">
                     <xs:simpleType>
                         <xs:restriction base="xs:boolean">
                         
@@ -48,7 +48,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <xs:element name="ventanaCerrada">
+                <xs:element name="ventanaCerrada" fixed="false">
                     <xs:simpleType>
                         <xs:restriction base="xs:boolean">
                         </xs:restriction>
