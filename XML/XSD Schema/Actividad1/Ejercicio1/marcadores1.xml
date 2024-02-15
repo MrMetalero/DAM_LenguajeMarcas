@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="marcadores1.xsd">
+    <pagina>
+        <nombre>Abrirllave</nombre>
+        <descripcion>Tutoriales de informática</descripcion>
+        <url>www.blblblb.es</url>
+
+    </pagina>
+
+    <pagina>
+        <nombre>Wikipedia</nombre>
+        <descripcion>blehbleebhe</descripcion>
+        <url>uwulandiattp.gigapágina.com</url>
+
+    </pagina>
+    <pagina>
+        <nombre>W3C</nombre>
+        <descripcion>la pagina de w3c</descripcion>
+        <url>la url</url>
+
+    </pagina>
+</marcadores>

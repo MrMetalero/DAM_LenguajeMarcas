@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ej3.xsd">
+
+    <codigo>1263</codigo>
+    <direccion>Juan de Juni, 31</direccion>
+    <telefono>612244123</telefono>
+    <propietario>
+        <nombre>Juanito</nombre>
+        <telefono>612346123</telefono>
+    </propietario>
+
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García</autor>
+        <formato>Rústica</formato>
+        <publicacion>4141</publicacion>
+        <precio>23,5</precio>
+    </libro>
+
+</libreria>

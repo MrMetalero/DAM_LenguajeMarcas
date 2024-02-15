@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno dni="12345678A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ej1.xsd">
+    <nombre></nombre>
+    <direccion>
+        <calle>daa adada</calle>
+        <numero>4</numero>
+        <ciudad>dadad</ciudad>
+        <provincia>adada</provincia>
+    </direccion>
+    <telefono>101010101</telefono>
+</alumno>
