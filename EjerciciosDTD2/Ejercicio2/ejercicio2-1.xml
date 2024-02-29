@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE favoritos [
-    <!ELEMENT favoritos (marcador*)>
+<!DOCTYPE marcadores [
+    <!ELEMENT marcadores (marcador*)>
     <!ELEMENT marcador (nombre, uri)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT uri (#PCDATA)>
 ]>
-<favoritos>
+<marcadores>
     <marcador>
         <nombre>W3C</nombre>
         <uri>http://www.w3.org/</uri>
@@ -15,4 +15,4 @@
             (WHATWG)</nombre>
         <uri>http://www.whatwg.org/</uri>
     </marcador>
-</favoritos>
+</marcadores>
