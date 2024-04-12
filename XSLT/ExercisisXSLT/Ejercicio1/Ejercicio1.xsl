@@ -3,33 +3,40 @@
     <xsl:output method="html" />
     <xsl:template match="/">
         <html>
-            <head>
-                <title>hola</title>
-                <link rel="stylesheet" href="ejer1.css"/>
-            </head>
-            
             <body>
-                <xsl:for-each match="ciudad">
-                    <h2>
-                        <xsl:value-of select="./nombre"/>
-                    </h2>
-                    <xsl:choose>
-                        <xsl:when test="./habitantes&lt;800000">
-                            <p>
-                                menos de 800000 habitantes
-                            </p>
-                        </xsl:when>
-                        <xsl:when test="./habitantes>=800000">
-                            <p>
-                                mas de 800000 habitantes
-                            </p>
-                        </xsl:when>
-                    </xsl:choose>
-                    <p>
-                        <xsl:value-of select="./habitantes"/>
-                    </p>
+            <h1>Ejercicio 1</h1>
+
+            <ul>
+                <xsl:for-each select="inventario/producto">
+                <li>
+                    Elemento
+                    <xsl:value-of select="@codigo"></xsl:value-of>
+                    <ul>
+                        <li>
+                            Nombre: <xsl:value-of select="nombre"></xsl:value-of>
+                            
+                        </li>
+
+                        <li>
+                            Peso: <xsl:value-of select="peso"></xsl:value-of>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
                 </xsl:for-each>
-            </body>
+
+
+            </ul>
+        
+
+
+
+        </body>
+
+
         </html>
     </xsl:template>
 </xsl:stylesheet>
