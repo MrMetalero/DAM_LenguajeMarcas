@@ -5,10 +5,17 @@
     <xsl:template match="/">
 
     <inventario>
-        <xsl:for-each select="//producto[peso &gt;=7]">
-            <xsl:copy-of select="."></xsl:copy-of>
 
-        </xsl:for-each>
+ 
+     
+
+       
+    
+
+        <xsl:copy-of select="/inventario/producto[lugar/aula = '6']/nombre"/>
+
+
+
     </inventario>
 
 

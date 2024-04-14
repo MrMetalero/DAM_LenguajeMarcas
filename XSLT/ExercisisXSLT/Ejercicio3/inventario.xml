@@ -10,7 +10,7 @@
     </producto>
 
     <producto codigo="P2">
-        <peso unidad='g'>500</peso>
+        <peso unidad='g'>3</peso>
         <nombre>Switch</nombre>
         <lugar edificio="A">
             <aula>6</aula>
@@ -43,7 +43,7 @@
     </producto>
 
     <producto codigo="P1">
-        <peso unidad="kg">10</peso>
+        <peso unidad="kg">5</peso>
         <nombre>Ordenador</nombre>
         <lugar edificio="B">
             <aula>10</aula>
