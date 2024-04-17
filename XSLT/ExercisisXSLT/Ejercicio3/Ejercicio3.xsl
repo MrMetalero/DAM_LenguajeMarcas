@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" />
     <xsl:template match="/">
-        <xsl:for-each select="//producto[peso&gt;7]">
+        <xsl:for-each select="//producto[peso>=7]">
             <xsl:copy-of select="."></xsl:copy-of>
 
         </xsl:for-each>
