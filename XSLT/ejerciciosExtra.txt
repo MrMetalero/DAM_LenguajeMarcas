@@ -1,0 +1,1 @@
+Cuantos productos tienen como unidad de peso la misma unidad que el producto con código "P2"
