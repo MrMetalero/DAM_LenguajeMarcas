@@ -1,0 +1,11 @@
+Cuantos productos tienen como unidad de peso la misma unidad 
+que el producto con código "P2"
+
+en una única tabla
+Inventario edificio A 
+Si el producto es de menos de 7Kg un color de fondo/fila
+Si el precio es igual otro color 
+y si es mayor, otro color
+
+No se puede utilizar IF 
+
