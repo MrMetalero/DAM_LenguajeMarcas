@@ -1,0 +1,18 @@
+
+Ejercicio1
+    /ies/nombre
+
+
+Ejercicio 2
+    /ies/web/text() 
+
+
+Ejercicio 3
+    //ciclo/nombre/text()
+
+
+Ejercicio 4
+    /
+
+
+
