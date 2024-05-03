@@ -1,0 +1,48 @@
+
+Ejercicio1
+    /ies/nombre
+
+
+Ejercicio 2
+    /ies/web/text() 
+
+
+Ejercicio 3
+    //ciclo/nombre/text()
+
+
+Ejercicio 4
+    //@id
+
+
+Ejercicio 5
+    //@año
+
+
+Ejercicio 6
+    //ciclo[grado= 'Medio']
+
+
+Ejercicio 7
+    //ciclo/nombre[../grado='Superior']/text()
+
+
+Ejercicio 8
+    //ciclo/nombre[../decretoTitulo/@año <2010]/text()
+
+
+Ejercicio 9
+//ciclo/nombre[../decretoTitulo/@año > 2008 and ../decretoTitulo/@año < 2010]/text()
+
+Ejercicio 10
+
+
+Ejercicio 11
+
+
+Ejercicio 12
+
+
+
+
+

@@ -1,0 +1,42 @@
+
+
+
+Ejercicio 1
+    //modulo//nombre/text()
+
+Ejercicio 2
+    //modulo//nombre[../ciclo = 'ASIR']/text()
+    //modulo//ciclo[. = 'ASIR']/../nombre/text()
+
+Ejercicio 3
+    //modulo//nombre[../curso = 2]/text()
+    //modulo/curso[.=2]/../nombre/text()
+
+Ejercicio 4
+    //modulo//nombre[../horasSemanales < 5]/text()
+    //modulo/horasSemanales[.<5]/../nombre/text()
+
+Ejercicio 5
+    //modulo//nombre[../ciclo = 'ASIR'  and ../curso = 1]/text()
+    //modulo/curso[.=1]/..//ciclo[.='ASIR']/../nombre
+
+Ejercicio 6
+    //modulo//horasSemanales[.>3]/text()
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
