@@ -22,7 +22,7 @@ Ejercicio 5
 
 Ejercicio 6
     //modulo//horasSemanales[.>3]/text()
-    
+    //
 
 
 
@@ -30,13 +30,31 @@ Ejercicio 6
 
 
 
+Ejercicios CLASE
+
+Esto de ies 2-----------------------
+
+Módulos de CFGS el 2º
+//modulo[ciclo = 'ASIR' or ciclo = 'DAW'][2]
+
+Módulos relacionados con "Aplicaciones web"
+//modulo[nombre ='Aplicaciones web']
+
+Módulos de los ciclos anteriores al 2010
+//
+
+
+Esto de ies 1-----------------------
 
 
 
+Módulos de CFGS el 2º
+//ciclo[grado = 'Superior'][2]
 
 
 
-
+Módulos de los ciclos anteriores al 2010
+//ciclos/ciclo/nombre[../decretoTitulo/@año<'2010']
 
 
 
