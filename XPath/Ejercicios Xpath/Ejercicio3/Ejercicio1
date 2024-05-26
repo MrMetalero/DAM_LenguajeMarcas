@@ -1,0 +1,40 @@
+
+
+
+Ejercicio 1
+
+//modulo/nombre[../ciclo=//ciclo[nombre='Sistemas Microinformáticos y Redes']/@id ]
+
+
+Ejercicio 2
+
+//ciclo[./@id= //modulo/ciclo[../nombre= 'Lenguajes de marcas y sistemas de gestión de información']]/nombre
+
+
+Ejercicio 3
+
+//modulo/nombre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
