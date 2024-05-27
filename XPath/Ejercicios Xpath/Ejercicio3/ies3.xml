@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ies>
     <nombre>IES Abastos</nombre>
     <web>http://www.iesabastos.org</web>
@@ -33,8 +33,7 @@
             <ciclo>ASIR</ciclo>
         </modulo>
         <modulo id="0373">
-            <nombre>Lenguajes de marcas y sistemas de gestión de
-                información</nombre>
+            <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
             <curso>1</curso>
             <horasSemanales>3</horasSemanales>
             <ciclo>ASIR</ciclo>
