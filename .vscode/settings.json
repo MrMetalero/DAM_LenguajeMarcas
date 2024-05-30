@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "basexTools.xquery.profile": "basex-10",
+    "basexTools.xquery.executionEngine": "java -jar /home/eddmenlaf/BaseX107.jar"
 }
