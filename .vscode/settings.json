@@ -1,5 +1,6 @@
 {
     "liveServer.settings.port": 5501,
     "basexTools.xquery.profile": "basex-10",
-    "basexTools.xquery.executionEngine": "java -jar /home/eddmenlaf/BaseX107.jar"
+    "basexTools.xquery.executionEngine": "/home/eddmenlaf/Escritorio/basex/bin/basex.bat",
+    "basexTools.xquery.showHovers": true
 }
