@@ -1,6 +1,0 @@
-<bailes> 
-{
-    falta cosas
-
-}
-</bailes>

@@ -1,83 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" />
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" version="utf-8"/>
+    <xsl:variable name="variableUno">
+        <xsl:value-of select="//producto[@codigo = 'P2']/peso/@unidad"/>
+    </xsl:variable>
     <xsl:template match="/">
-
-    <xsl:variable name="P2peso" select="inventario/producto/peso[../@codigo = 'P2']"/>
-       
-   
-
-    <html>
-
-        <head>
-
-            <style>
-
-
-
-            </style>
-
-
-        </head>
-
-
-
-
-        <body>
-            
-            <h1>Ejercicio Variables</h1>
-
-
-            <p>
-                [Peso de P2 variable] 
-                <xsl:value-of select="$P2peso"></xsl:value-of>
-
-            </p>
-
-            
-            
-
-            <ul>
-               
-                <xsl:apply-templates select="//producto[@codigo = $P2peso]"/>
-
-            </ul>
-
-            <br/>
-            <br/>
-
-            <ul>
-                <xsl:for-each select="inventario/producto[@codigo = $P2peso]">
-                <li>
-                    <xsl:value-of select="nombre"></xsl:value-of>
-                </li>
-
-
-
+        <html>
+            <head>
+                <title>EJERCICIO VARIABLES</title>
+            </head>
+            <body>
+                <h2>EJERCICIO 9</h2>
+                <xsl:for-each select="//producto">
+                    <xsl:if test="peso/@unidad = $variableUno">
+                        <ul>
+                            
+                            <li>
+                                Elemento: <xsl:value-of select="@codigo"/>
+                            </li>
+                            <ul>
+                                <li>
+                                    Nombre: <xsl:value-of select="nombre"/>
+                                </li>
+                                <li>
+                                    Peso: <xsl:value-of select="peso"/> <xsl:value-of select="peso/@unidad"/> 
+                                </li>
+                            </ul>
+                        </ul>
+                    </xsl:if>
                 </xsl:for-each>
-
-            </ul>
-
-        </body>
-
-
-    </html>
-
-
-    <xsl:apply-templates></xsl:apply-templates>
-
-    </xsl:template>
-
-    
-
-
-    <xsl:template match="producto">
-
-        <li>
-            <xsl:value-of select="nombre"></xsl:value-of>
-        </li>
+                
+            </body>
+        </html>
         
     </xsl:template>
-    
+
 </xsl:stylesheet>

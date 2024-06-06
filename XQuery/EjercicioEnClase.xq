@@ -6,12 +6,20 @@ a W. Stevens o Peter Buneman entre sus autores
  :)
 <libros>
 {
-for $librosIterados in doc("libros.xml")//libro
-where $librosIterados/autor
-for $comentariosIterados in doc("comentarios.xml")//entrada
-let $comentariosTexto := $comentariosIterados/comentario
-let $libroComentario := concat($comentariosIterados,$comentariosTexto)
-return <librocomentario>{$libroComentario}</librocomentario>
+for $librosIterados in doc("libros.xml")//libro,
+    $entradasIteradas in doc("comentarios.xml")//entrada
+    let $comentariosTexto := $entradasIteradas/comentario
+    let $libroCombinado := <libroCombinado>{$librosIterados/* , $comentariosTexto} </libroCombinado>
+    where contains($libroCombinado,$libroCombinado/libroCombinado/libros/apellido ="Stevens" and $libroCombinado/libroCombinado/libros/nombre ="W." or
+    $libroCombinado/libroCombinado/libros/apellido ="Buneman" and $libroCombinado/libroCombinado/libros/nombre ="Peter."
+    )
+    
+    
+    return 
+    <librocomentario>
+    <libroCombinado>{$libroCombinado} </libroCombinado>
+    
+    </librocomentario>
 
 
 }
