@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="text50">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="emailWeb">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".+@ponprecioamimusica\.org"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="web">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="http://www\.ponprecioamimusica\.org/.*|https://www\.ponprecioamimusica\.org/.*|www\.ponprecioamimusica\.org/.*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="discograficaType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Sony"/>
+      <xs:enumeration value="CBS"/>
+      <xs:enumeration value="SIRE"/>
+      <xs:enumeration value="OTRAS"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="anioType">
+    <xs:restriction base="xs:gYear">
+      <xs:pattern value="\d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="mesType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="enero"/>
+      <xs:enumeration value="febrero"/>
+      <xs:enumeration value="marzo"/>
+      <xs:enumeration value="abril"/>
+      <xs:enumeration value="mayo"/>
+      <xs:enumeration value="junio"/>
+      <xs:enumeration value="julio"/>
+      <xs:enumeration value="agosto"/>
+      <xs:enumeration value="septiembre"/>
+      <xs:enumeration value="octubre"/>
+      <xs:enumeration value="noviembre"/>
+      <xs:enumeration value="diciembre"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="precioType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="5"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="stockType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="200"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:group name="direccion">
+    <xs:choice>
+      <xs:sequence>
+        <xs:element name="web" type="web"/>
+        <xs:element name="email" type="emailWeb"/>
+      </xs:sequence>
+      <xs:sequence>
+        <xs:element name="calle" type="text50"/>
+        <xs:element name="localidad" type="text50"/>
+      </xs:sequence>
+    </xs:choice>
+  </xs:group>
+
+  <xs:element name="discos">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="grupo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="text50"/>
+              <xs:element name="miembro" type="text50" maxOccurs="unbounded"/>
+              <xs:element name="nacionalidad" type="text50" minOccurs="0"/>
+              <xs:group ref="direccion" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="nom" type="text50" use="required"/>
+          </xs:complexType>
+        </xs:element>
+
+        
+        <xs:element name="disco" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="interprete">
+                <xs:complexType>
+                  <xs:attribute name="nom" type="text50" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="titulo" type="text50"/>
+              <xs:element name="discografica" type="discograficaType" minOccurs="0"/>
+              <xs:element name="anio">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="anioType">
+                      <xs:attribute name="mes" type="mesType" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="stock" type="stockType"/>
+            </xs:sequence>
+            <xs:attribute name="precio" type="precioType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
