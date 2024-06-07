@@ -1,8 +1,12 @@
 
 <html> 
   
+
+  <head>
+  <title>Ejercicio 22</title>
+  </head>
     <body>
-        <table style="border = 1">
+        <table>
                 {
                 let $titulos := doc("libreria.xml")//title
                 for $tituloMostrar in $titulos
